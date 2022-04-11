@@ -1,0 +1,58 @@
+.titulo{
+  /*  Centrar contenido  */
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto 40px;
+  position: relative;
+  line-height: 60px;
+  margin-top: 2%;
+  font-family: 'Rubik', sans-serif;
+}
+
+/*  Barra de color debajo de la descripción  */
+.titulo::after{
+  content:'';
+  background: rgb(5, 5, 151);
+  width: 95%;
+  height: 3%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -20%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+/* Div que contiene los botones y la gráfica */
+.grafica{
+  margin-top: 0%;
+  width: 100%;
+}
+
+.parrafo{
+  font-size: 70%;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Estilo de select */
+.pais{
+  width: 100%;
+  margin-top: 30%;
+}
+
+/* Estilo de botón aceptar */
+.btnAceptar{
+  margin-top: 10%;
+  background-color: #064eb4;
+}
+
+/* Logo del header*/
+.logo{
+  max-width: 17%;
+  max-height: 17%;
+}
+
+/* Header */
+.navbar{
+  background-color: rgba(4, 72, 219, 0.925);
+}
